@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT void JNICALL Java_whl_bsdiff_BsDiff_diff
         (JNIEnv *, jobject, jstring, jstring, jstring);
 
+/*
+ * Class:     whl_bsdiff_BsDiff
+ * Method:    patch
+ * Signature: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_whl_bsdiff_BsDiff_patch
+        (JNIEnv *, jobject, jstring, jstring, jstring);
+
 #ifdef __cplusplus
 }
 #endif
